@@ -17,8 +17,8 @@ const Header = () => {
     <header className="bg-background/95 backdrop-blur-sm border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <img src="/lovable-uploads/e06a6843-ee02-45ca-a83b-4c212617a0d4.png" alt="Path2SAP" className="h-8 w-auto" />
+          <div className="flex items-center -ml-12">
+            <img src="/lovable-uploads/e06a6843-ee02-45ca-a83b-4c212617a0d4.png" alt="Path2SAP" className="h-16 w-auto" />
           </div>
           
           {/* Desktop Navigation */}

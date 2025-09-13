@@ -71,6 +71,7 @@ const Services = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
               <div className="bg-background p-4 rounded-lg">
                 <div className="font-semibold text-primary">S/4HANA</div>
+                <div className="text-sm text-muted-foreground">SAP’s Next-Generation ERP Suite</div>
               </div>
               <div className="bg-background p-4 rounded-lg">
                 <div className="font-semibold text-primary">MM</div>

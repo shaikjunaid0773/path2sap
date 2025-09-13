@@ -11,18 +11,16 @@ const About = () => {
               About Path2SAP Consulting
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With over 22 years of experience in the industry, Path2SAP Consulting aims to build 
-              long-term relationships with clients rather than focusing solely on transactions.
+              At Path2SAP Consulting LLC, we empower organizations to achieve operational excellence by optimizing their SAP supply chain landscape. Our expertise lies in SAP Extended Warehouse Management (EWM), Materials Management (MM), and Transportation Management (TM)—ensuring seamless integration and sustainable solutions tailored to your business.<br /><br />
+              We Focus on:
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Our approach involves understanding client needs, identifying opportunities, and 
-              providing tailored solutions to drive success and profitability in your logistics 
-              and supply chain operations.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Path2SAP Consulting LLC is dedicated to helping businesses streamline their logistics 
-              and supply chain operations through expert SAP consulting services.
-            </p>
+            <ul className="list-disc pl-6 text-lg text-muted-foreground leading-relaxed space-y-2">
+              <li>Business process design and global blueprint rollouts to local warehouses</li>
+              <li>Identifying gaps and reducing custom development to maintain a clean core</li>
+              <li>Prototyping, proof of concepts, and user training to drive adoption</li>
+              <li>Developing training materials for smooth knowledge transfer</li>
+              <li>Integration testing across supply chain modules with Finance &amp; Controlling</li>
+            </ul>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -31,7 +29,7 @@ const About = () => {
                 <Clock className="h-12 w-12 text-primary mx-auto" />
                 <div>
                   <div className="text-2xl font-bold text-foreground">22+</div>
-                  <div className="text-muted-foreground">Years Experience</div>
+                  <div className="text-muted-foreground">Years in SAP Consulting & Implementation</div>
                 </div>
               </CardContent>
             </Card>
