@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <img src="/lovable-uploads/e06a6843-ee02-45ca-a83b-4c212617a0d4.png" alt="Path2SAP" className="h-8 w-auto brightness-0 invert" />
             <p className="text-background/80 max-w-sm">
-              Expert SAP consulting for supply chain excellence with 22+ years of specialized experience in Extended Warehouse Management.
+              Expert SAP consulting for supply chain excellence with specialized expertise in Extended Warehouse Management.
             </p>
           </div>
 
