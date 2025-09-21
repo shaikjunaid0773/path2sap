@@ -51,9 +51,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
-          <div className="space-y-6">
-            <Card>
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col sm:flex-row gap-8 mb-8 w-full justify-center">
+            <Card className="flex-1 min-w-[260px]">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Clock className="h-5 w-5 text-primary" />
@@ -66,7 +66,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="flex-1 min-w-[260px]">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
@@ -78,22 +78,20 @@ const Contact = () => {
                 <p className="font-semibold">info@path2sap.com</p>
               </CardContent>
             </Card>
+          </div>
 
-            <Card>
+          <div className="w-full flex justify-center">
+            <Card className="max-w-xl w-full">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-primary" />
-                  Call Us
-                </CardTitle>
+                <CardTitle className="text-center">Contact Us</CardTitle>
+                <CardDescription className="text-center">
+                  If you would like to send us a message, please email <span className="font-semibold text-primary">info@path2sap.com</span>. Our team will review your inquiry and get back to you within 24 hours.
+                </CardDescription>
               </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">Speak with our experts</p>
-                <p className="font-semibold">+1 (555) 123-4567</p>
-              </CardContent>
             </Card>
           </div>
 
-          <div className="lg:col-span-2">
+          {/* <div className="lg:col-span-2">
             <Card>
               <CardHeader>
                 <CardTitle>Send Us a Message</CardTitle>
@@ -186,7 +184,7 @@ const Contact = () => {
                 </form>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

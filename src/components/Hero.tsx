@@ -19,11 +19,10 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Driving Supply Chain Excellence with
-                <span className="text-primary block">SAP</span>
+                Driving Business with <span className="text-primary">SAP</span> Supply Chain Management
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                We specialize in helping businesses streamline logistics and supply chain operations through expert SAP consulting services. With over 22 years of hands-on experience, we deliver sustainable solutions that adapt to your business needs today and prepare you for tomorrow.
+                Expertise SAP consulting services in Materials Management, Extended Warehouse Management and Transportation Management.
               </p>
             </div>
             
@@ -40,14 +39,14 @@ const Hero = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-card p-6 rounded-lg shadow-sm border">
               <Users className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">22+ Years of Consulting Excellence</h3>
-              <p className="text-muted-foreground">Industry-leading expertise in SAP supply chain solutions</p>
+              <h3 className="text-xl font-semibold mb-2">Our Expertise</h3>
+              <p className="text-muted-foreground">Analysts with over 20 years’ experience in implementing SAP across versatile industry verticals</p>
             </div>
             
             <div className="bg-card p-6 rounded-lg shadow-sm border">
               <Award className="h-12 w-12 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Specialized Focus</h3>
-              <p className="text-muted-foreground">Extended Warehouse Management and logistics optimization</p>
+              <p className="text-muted-foreground">SAP Extended Warehouse Management</p>
             </div>
             
             <div className="bg-card p-6 rounded-lg shadow-sm border sm:col-span-2">

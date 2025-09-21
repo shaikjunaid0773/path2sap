@@ -40,14 +40,14 @@ const Services = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Our Services
+            Our Services and Approach
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive SAP consulting services tailored to optimize your supply chain and warehouse operations
+            Comprehensive SAP consulting services tailored to optimize your business processes
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="h-full hover:shadow-lg transition-shadow">
               <CardHeader>
@@ -61,9 +61,20 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div> */}
+
+        <div className="flex justify-center">
+          <ul className="list-disc pl-6 text-lg text-muted-foreground leading-relaxed space-y-4 text-left max-w-xl w-full text-justify">
+            <li>Analyze Realtime Business processes to optimize into SAP Processes</li>
+            <li>Identify Standard SAP Gaps and Provide Custom Solutions</li>
+            <li>System Integration Testing to provide defect free smooth system run</li>
+            <li>Excellent Training to provide easy access to all users</li>
+            <li>Support SAP application life cycle post go-live Implementation</li>
+            <li>RF solutions</li>
+          </ul>
         </div>
 
-        <div className="mt-16 bg-primary/5 rounded-lg p-8">
+        {/* <div className="mt-16 bg-primary/5 rounded-lg p-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-foreground mb-4">
               SAP Modules We Specialize In
@@ -95,7 +106,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
